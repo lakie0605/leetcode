@@ -12,13 +12,13 @@ class IndexCreate
     public function __construct()
     {
         $this->root = '.';
-        $this->text = "# Leetcode解题记录\n ### 目录:\n\n";
+        $this->text = "";
     }
 
     public function makeIndex()
     {
         $this->text = $this->LoopDir($this->root);
-        $readme = 'README.MD';
+        $readme = 'SUMMARY.md';
         $file = fopen($readme, 'w+');
         fwrite($file, $this->text);
         fclose($file);
