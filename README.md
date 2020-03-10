@@ -1,2 +1,2 @@
 # Leetcode解题记录
-### [目录：](./SUMMARY.MD)
+### [目录](./SUMMARY.md)
