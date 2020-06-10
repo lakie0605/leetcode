@@ -21,6 +21,7 @@ class Solution {
                 } else {
                     $arr = [$j, $i];
                 }
+                break;
             }
         }
         if (isset($arr)) {
